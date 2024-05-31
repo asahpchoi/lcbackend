@@ -1,0 +1,14 @@
+{
+  "name": "lcbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/asahpchoi/lcbackend",
+  "author": "Asa Choi <asa.choi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 10000",
+    "deploy":"",
+    "build":"pip install -r requirements.txt"
+  }
+
+}
